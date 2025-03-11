@@ -5,7 +5,7 @@
   --color-primary: #cb5c47;
 }
 
-
+ 
 /* colores */
 :root {
 --color-secundary: red;
@@ -50,7 +50,7 @@
 
 
 /* tipografias */
-  
+
 p.personal {
   font-family: 'Playwrite it moderna', regular;
 }
