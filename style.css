@@ -6,6 +6,30 @@
 }
 
 
+/* colores */
+:root {
+--color-secundary: red;
+--color-secundary: blue;
+--color-secundary: cyan;
+--color-secundary: magenta;
+--color-secundary: black;
+--color-secundary: green;
+--color-secundary: yellow;
+--color-secundary: purple;
+--color-secundary: pink;
+--color-secundary: orange;
+--color-secundary: brown;
+--color-secundary: white;
+--color-secundary: gray;
+--color-secundary: turquoise;
+--color-secundary: indigo;
+--color-secundary: violet;
+--color-secundary: gold;
+--color-secundary: silver;
+}
+
+
+
 /* importar bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,6 +37,9 @@
   color: var(--color-primary);
 }
 
+.personal {
+  display: flex;
+}
 
 /* tipografias */
 @import '~bootstrap/dist/css/bootstrap.min.css';
@@ -28,6 +55,6 @@ p.personal {
   font-family: 'Courier New', Courier, monospace;
 }
 
-h1.personal {
-  font-family: 'playwrite ot moderna', Rgular, monospace;
+h1.nombre {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
