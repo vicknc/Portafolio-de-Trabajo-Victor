@@ -47,14 +47,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 @import url(Noto_Sans/static/NotoSans-Regular.ttf);
 @import url(Playwrite_IT_Moderna/static/PlaywriteITModerna-Regular.ttf);
-
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 
 /* tipografias */
 
 p.personal {
-  font-family: 'Playwrite it moderna', regular;
+  font-family: 'Alata', regular ;
 }
 
 h1.nombre {
-  font-family: 'Noto-sans', regular;
+  font-family: 'Noto-sans', light;
 }
