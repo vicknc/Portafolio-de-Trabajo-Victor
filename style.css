@@ -2,39 +2,23 @@
 
 :root {
   /* here variables goes */
-  --color-primary: #cb5c47;
-  --color-primary: #772716;
-  --color-primary: #00ff0d;
-  --color-primary: #2528e4;
-  --color-primary: #bbb815;
-  --color-primary: #cc16a5;
-  --color-primary: #b60e0e;
+  --color-primary: #FF8906;
 }
 
  
 /* colores */
 :root {
---color-secundary: red;
---color-secundary: blue;
---color-secundary: cyan;
---color-secundary: magenta;
---color-secundary: black;
---color-secundary: green;
---color-secundary: yellow;
---color-secundary: purple;
---color-secundary: pink;
---color-secundary: orange;
---color-secundary: brown;
---color-secundary: white;
---color-secundary: gray;
---color-secundary: turquoise;
---color-secundary: indigo;
---color-secundary: violet;
---color-secundary: gold;
---color-secundary: silver;
+--color-secundary: #0F0E17;
+
 }
 
+:root {
+  --color-terciary: #D9D9D9;
+}
 
+div.cuerpo {
+  background-color: var(--color-secundary);
+}
 
 /* importar bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
@@ -51,7 +35,7 @@
 @import url(Playwrite_IT_Moderna/static/PlaywriteITModerna-Regular.ttf);
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* tipografias */
 
 .noto-sans-uniquifier {
@@ -104,13 +88,95 @@
 
 
 /* aplicacion de tipografias */
-h1.nombre :root{
-  font-family: 'Amaranth';
+h1.nombre {
+  font-family: "Amaranth", Regular 400 at 48px;
   font-size: 300%;
   font-style: normal;
+  color: #ffff ;
 }
 
-p.nombresHerramientas {
-  font-family: 'Amaranth', light;
+h2.secciones {
+  font-size: 300%;
+  font-family: 'Aramanth', Regular 400 at 24px;
+  font-style: normal;
+  color: var(--color-terciary);
 }
 
+p.digitales {
+  font-family: 'Amaranth', Regular 400 ;
+  font-size: 200%;
+  font-style: normal;
+  color: var(--color-terciary);
+}
+
+p.descripciones {
+  font-family: "Amaranth", Regular 400 at 21px;
+  font-size: 150%;
+  font-style: normal;
+  color: var(--color-terciary);
+}
+
+h3.Contacto {
+  font-family: "Amaranth", Regular 400 at 21px;
+  font-size: 150%;
+  font-style: normal;
+  color: var(--color-terciary);
+}
+
+p.contacto {
+  font-family: "Amaranth", Regular 400 at 21px;
+  font-size: 150%;
+  font-style: normal;
+  color: var(--color-terciary);
+}
+
+/* estilos de imagen */
+img.imgHerramientas {
+  border-radius: 50%;
+  max-width: 20%;
+}
+
+img.perfil { 
+  border-radius: 100%;
+  max-width: 50%;
+}
+
+img.imgDescripcion {
+  border-radius: 100px;
+}
+
+img.imgProyectos {
+  border-radius: 100px;
+}
+
+img.imgEscuelas {
+  border-radius: 100%;
+}
+
+img.imgPasiones {
+  border-radius: 100%;
+}
+
+img.imgContactos {
+  border-radius: 100%;
+}
+
+i.bi-person-circle {
+  color: #ffff;
+}
+
+i.bi-facebook {
+  color: #ffff;
+}
+
+i.bi-instagram {
+  color: #ffff;
+}
+
+i.bi-whatsapp {
+  color: #ffff;
+}
+
+i.bi-threads {
+  color: #ffff;
+}
