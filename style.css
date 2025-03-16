@@ -161,6 +161,13 @@ img.imgContactos {
   border-radius: 100%;
 }
 
+img.imgRelleno {
+  border-radius: 100% ;
+}
+
+
+/*ICONOS COLOR*/
+
 i.bi-person-circle {
   color: #ffff;
 }
