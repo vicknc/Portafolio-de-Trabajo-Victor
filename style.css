@@ -169,26 +169,6 @@ img.imgRelleno {
 }
 
 
-.contenedor {
-  position: relative;
-  width: 100%;
-  height: 500px;
-}
-
-.imgFondo {
-  width: 50%;
-  object-fit: cover;
-}
-
-.imgPerfil {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 200%;
-  z-index: 1;
-}
-
 
 /*ICONOS COLOR*/
 
@@ -210,4 +190,35 @@ i.bi-whatsapp {
 
 i.bi-threads {
   color: #ffff;
+}
+
+
+
+
+/* estilo de perfil */
+
+.imgFondo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img.imgPerfil {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  border: 1px solid #ff000000;
+}
+
+
+
+/* estilo de nav bar */ 
+
+.nav-link.active {
+  background-color: var(--color-terciary);
+  color: var(--color-primary);
 }

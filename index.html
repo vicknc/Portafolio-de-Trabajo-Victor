@@ -46,39 +46,35 @@
 
     <div class="cuerpo">
   
-    <nav>
-    <nav class="navbar navbar-expand-lg" style="background-color: #A7A9BE;">
-      <div class="container-fluid">
-        <img width="50" clas="imgLogo" src="src/imagenes/logo victor.png" alt="Logo Victor Nava"> 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#nombre">INICIO</a>
-            <a class="nav-link" href="#historial">HISTORIAL ACADEMICO</a>
-            <a class="nav-link" href="#pasiones">PASIONES</a>
-            <a class="nav-link" href="#proyectos">PROYECTOS</a>
-            <a class="nav-link" href="#herramientas">HERRAMIENTAS</a>
-            <a class="nav-link" href="#contacto">CONTACTOS</a>
+      <nav class="navbar navbar-expand-lg" style="background-color: #A7A9BE; position: fixed; top: 0; left: 0; width: 100%; z-index: 1;">
+        <div class="container-fluid">
+          <img width="50" class="imgLogo" src="src/imagenes/logo victor.png" alt="Logo Victor Nava"> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#nombre" data-section="nombre">INICIO</a>
+              <a class="nav-link" href="#historial" data-section="historial">HISTORIAL ACADEMICO</a>
+              <a class="nav-link" href="#pasiones" data-section="pasiones">PASIONES</a>
+              <a class="nav-link" href="#proyectos" data-section="proyectos">PROYECTOS</a>
+              <a class="nav-link" href="#herramientas" data-section="herramientas">HERRAMIENTAS</a>
+              <a class="nav-link" href="#contacto" data-section="contacto">CONTACTOS</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
  
-  </nav>
+ </nav>
 
   
   
   
   <section>
     <!-- < SECCION DE PRESENTACION > -->
-    
-    <div class="contenedor">
       <img width="200" class="imgFondo" src="src/imagenes/landscape.jpg" alt="Imagen de fondo">
       <img width="200" class="imgPerfil" src="src/imagenes/fotoPERFIL.png" alt="Imagen de perfil">
-    </div>
-        <h1  class="nombre">VICTOR MANUEL NAVA CRUZ</h1>
+        <h1 id="nombre"  class="nombre">VICTOR MANUEL NAVA CRUZ</h1>
         <p class="descripciones">Soy un estudiante de la carrera de Diseño de la Universidad Autónoma Metropolitana, actualmente cursando el 8vo trimestre de mi carrera universitaria.</p>
     <!-- TERMINA SECCION DE PRESENTACIÓN  -->
     </section>
