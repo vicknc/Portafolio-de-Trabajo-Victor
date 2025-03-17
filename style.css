@@ -248,7 +248,7 @@ img.imgPerfil {
 }
 
 .contenido {
-  margin-top: 60px;
+  margin-top: 60px; /* ajusta el valor según el alto de tu navbar */
 }
 
 @media (min-width: 768px) {
