@@ -231,10 +231,36 @@ img.imgPerfil {
   background-color: #A7A9BE;
 }
 
-.imgFondo {
+.fondo {
   background-image: url('src/imagenes/landscape.jpg');
   background-size: cover;
   background-attachment: fixed;
   height: 100vh; 
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #A7A9BE;
+  z-index: 1000;
+}
+
+.contenido {
+  margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #A7A9BE;
+    z-index: 1000;
+  }
+  .contenido {
+    margin-top: 60px;
+  }
+}
