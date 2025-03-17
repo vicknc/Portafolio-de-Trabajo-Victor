@@ -165,34 +165,17 @@ img.imgContactos {
 }
 
 img.imgRelleno {
-  border-radius: 50%;
+  border-radius: 100px;
 }
 
 
 
 /*ICONOS COLOR*/
 
-i.bi-person-circle {
+i.bi-c-circle {
   color: #ffff;
+  flex-direction: flex-end;
 }
-
-i.bi-facebook {
-  color: #ffff;
-}
-
-i.bi-instagram {
-  color: #ffff;
-}
-
-i.bi-whatsapp {
-  color: #ffff;
-}
-
-i.bi-threads {
-  color: #ffff;
-}
-
-
 
 
 /* estilo de perfil */
@@ -212,6 +195,7 @@ img.imgPerfil {
   height: 100px;
   z-index: 1;
   border: 1px solid #ff000000;
+  flex-direction: flex-start;
 }
 
 
@@ -228,4 +212,28 @@ img.imgPerfil {
 
 .navbar.inicio {
   padding-top: 200px; 
+}
+
+.navbar {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #A7A9BE; /* o cualquier otro color que desees */
+}
+
+.fondo {
+  background-image: url('src/imagenes/fondo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; /* o cualquier otra altura que desees */
 }
