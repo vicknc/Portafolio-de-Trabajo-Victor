@@ -222,3 +222,10 @@ img.imgPerfil {
   background-color: var(--color-terciary);
   color: var(--color-primary);
 }
+.sticky-top {
+  top: 200px;
+}
+
+.navbar.inicio {
+  padding-top: 200px; 
+}

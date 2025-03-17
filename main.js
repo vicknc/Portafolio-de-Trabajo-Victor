@@ -18,3 +18,22 @@ $(window).scroll(function() {
       }
     });
   });
+
+  $(window).scroll(function() {
+    var scrollPosition = $(window).scrollTop();
+    var sections = $('section');
+  
+    sections.each(function() {
+      var sectionId = $(this).attr('id');
+      var sectionTop = $(this).offset().top;
+      var sectionBottom = sectionTop + $(this).height();
+  
+      if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+        if (sectionId === 'nombre') {
+          $('.navbar').addClass('inicio');
+        } else {
+          $('.navbar').removeClass('inicio');
+        }
+      }
+    });
+  });
