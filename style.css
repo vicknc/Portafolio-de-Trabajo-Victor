@@ -228,12 +228,13 @@ img.imgPerfil {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #A7A9BE; /* o cualquier otro color que desees */
+  background-color: #A7A9BE;
 }
 
-.fondo {
-  background-image: url('src/imagenes/fondo.jpg');
+.imgFondo {
+  background-image: url('src/imagenes/landscape.jpg');
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh; /* o cualquier otra altura que desees */
+  height: 100vh; 
 }
+
