@@ -119,7 +119,7 @@ p.descripciones {
   font-family: "Amaranth", Regular 400 at 21px;
   font-size: 150%;
   font-style: normal;
-  color: var(--color-terciary);
+  color: #ffff;
 }
 
 h3.Contacto {
