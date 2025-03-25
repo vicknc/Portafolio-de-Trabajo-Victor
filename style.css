@@ -28,7 +28,6 @@ div.cuerpo {
 }
 
 /* tipografias */
-@import '~bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 @import url(Noto_Sans/static/NotoSans-Regular.ttf);
@@ -109,6 +108,13 @@ p.digitales {
   color: var(--color-terciary);
 }
 
+p.presentacion {
+  font-family: "Amaranth", Regular 400 at 21px;
+  font-size: 150%;
+  font-style: normal;
+  color: var(--color-terciary);
+}
+
 p.descripciones {
   font-family: "Amaranth", Regular 400 at 21px;
   font-size: 150%;
@@ -181,86 +187,39 @@ i.bi-c-circle {
 /* estilo de perfil */
 
 img.imgFondo {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
   object-fit: cover;
+  z-index: -1;
+  container: 50px 200px;
 }
 
 img.imgPerfil {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 250px;
+  right: 2px;
   transform: translate(-50%, -50%);
-  width: 50px;
-  height: 50px;
+  width: 300px;
+  height: 300px;
+  z-index: auto;
+}
+
+nav.barraNavegacion {
   z-index: 1;
-  border: 1px solid #ff000000;
-  flex-direction: flex-start;
 }
 
-
-
-/* estilo de nav bar */ 
-
-.nav-link.active {
-  background-color: var(--color-terciary);
-  color: var(--color-primary);
-}
-.sticky-top {
+h1.nombre {
+  position: absolute;
+  z-index: auto;
   top: 200px;
+  left: 25px;
 }
 
-.navbar.inicio {
-  padding-top: 200px; 
-}
-
-.navbar {
-  z-index: 1000;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.navbar {
-  z-index: 1000;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #A7A9BE;
-}
-
-.fondo {
-  background-image: url('src/imagenes/landscape.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh; 
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #A7A9BE;
-  z-index: 1000;
-}
-
-.contenido {
-  margin-top: 60px; /* ajusta el valor según el alto de tu navbar */
-}
-
-@media (min-width: 768px) {
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #A7A9BE;
-    z-index: 1000;
-  }
-  .contenido {
-    margin-top: 60px;
-  }
+div.p1 {
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  top: 300px;
+  left: 25px;
 }
