@@ -23,10 +23,9 @@ div.cuerpo {
 /* importar bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-.btn--primary {
-  color: var(--color-primary);
+body.pagina {
+  background-color: #0F0E17;
 }
-
 /* tipografias */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
@@ -97,7 +96,7 @@ h1.nombre {
 h2.secciones {
   font-size: 300%;
   font-family: 'Aramanth', Regular 400 at 24px;
-  font-style: normal;
+  font-style: normal
   color: var(--color-terciary);
 }
 
@@ -112,7 +111,7 @@ p.presentacion {
   font-family: "Amaranth", Regular 400 at 21px;
   font-size: 150%;
   font-style: normal;
-  color: var(--color-terciary);
+  color: #ffff;
 }
 
 p.descripciones {
@@ -205,6 +204,12 @@ img.imgPerfil {
   z-index: auto;
 }
 
+/* estilo de barra de navegacion */ 
+
+div.navbar-nav {
+  justify-content: end;
+}
+
 nav.barraNavegacion {
   z-index: 1;
 }
@@ -223,3 +228,67 @@ div.p1 {
   top: 300px;
   left: 25px;
 }
+
+.descripcionInicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.descripcionInicial section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imgInicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.imgDescripcion {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  text-align: center;
+  width: 500px;
+  color:#ffff;
+  font-size: 1vw;
+}
+
+.descripciones {
+  text-align: center;
+  width: 500px;
+}
+
+.separador {
+  height: 48px;
+  background-color: var(--color-primary);
+  margin: 20px 0;
+}
+
+
+
+.secciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  color: #ffff;
+}
+
+p.descripciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  color: #ffff;
+}
+
