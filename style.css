@@ -121,6 +121,7 @@ p.descripciones {
   color: #ffff;
 }
 
+
 h3.Contacto {
   font-family: "Amaranth", Regular 400 at 21px;
   font-size: 150%;
@@ -157,8 +158,15 @@ img.imgProyectos {
   border-radius: 100px;
 }
 
+
+img.imgProyectos1 {
+  border-radius: 100px;
+}
+
+
 img.imgEscuelas {
   border-radius: 100%;
+  size: 200px 200px;
 }
 
 img.imgPasiones {
@@ -174,7 +182,6 @@ img.imgRelleno {
 }
 
 
-
 /*ICONOS COLOR*/
 
 i.bi-c-circle {
@@ -188,11 +195,13 @@ i.bi-c-circle {
 img.imgFondo {
   width: 100%;
   height: auto;
+
   max-height: 500px;
   object-fit: cover;
   z-index: -1;
   container: 50px 200px;
 }
+
 
 img.imgPerfil {
   position: absolute;
@@ -259,22 +268,35 @@ div.p1 {
 .descripcion {
   text-align: center;
   width: 500px;
+  height: 48px;
   color:#ffff;
   font-size: 1vw;
 }
 
-.descripciones {
-  text-align: center;
-  width: 500px;
+p.descripciones1 {
+  text-align: justify;
+  width: 650px;
+  font-size: 21px;
+  padding: 48px;
+  color: #ffff;
+}
+
+
+
+p.descripciones {
+  text-align: justify;
+  width: 650px;
+  font-size: 21px;
+  padding: 48px;
+  color: #ffff;
 }
 
 .separador {
-  height: 48px;
+  height: 24px;
+  width: 80%;
   background-color: var(--color-primary);
-  margin: 20px 0;
+  margin: 48px 10%;
 }
-
-
 
 .secciones {
   display: flex;
@@ -284,11 +306,68 @@ div.p1 {
   color: #ffff;
 }
 
-p.descripciones {
+p.descripciones2 {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: center;
+}
+
+.escuelas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+p.descripciones3 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 48px;
   color: #ffff;
+  font-size: 21px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
+p.descripciones4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 48px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: justify;
+  width: 500px;
+  margin-left: 12%;
+}
+
+p.descripciones5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+p.digitales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
