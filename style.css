@@ -312,28 +312,19 @@ p.descripciones2 {
   padding: 48px;
   color: #ffff;
   font-size: 21px;
-  text-align: center;
-}
-
-.escuelas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-around;
+  text-align: left;
 }
 
 
 p.descripciones3 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   padding: 48px;
   color: #ffff;
   font-size: 21px;
-  text-align: center;
+  text-align: left;
   width: 70%;
-  margin: 0 auto;
 }
 
 p.descripciones4 {
@@ -371,3 +362,5 @@ p.digitales {
   width: 70%;
   margin: 0 auto;
 }
+
+
