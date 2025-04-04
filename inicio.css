@@ -97,7 +97,7 @@ h2.secciones {
   font-size: 300%;
   font-family: 'Aramanth', Regular 400 at 24px;
   font-style: normal
-  color: var(--color-terciary);
+  color var(--color-terciary);
 }
 
 p.digitales {

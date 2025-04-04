@@ -1,0 +1,367 @@
+/* Add styles here */
+
+:root {
+    /* here variables goes */
+    --color-primary: #FF8906;
+  }
+  
+   
+  /* colores */
+  :root {
+  --color-secundary: #0F0E17;
+  
+  }
+  
+  :root {
+    --color-terciary: #D9D9D9;
+  }
+  
+  div.cuerpo {
+    background-color: var(--color-secundary);
+  }
+  
+  /* importar bootstrap */
+  @import '~bootstrap/dist/css/bootstrap.min.css';
+  
+  body.pagina {
+    background-color: #0F0E17;
+  }
+  /* tipografias */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+  @import url(Noto_Sans/static/NotoSans-Regular.ttf);
+  @import url(Playwrite_IT_Moderna/static/PlaywriteITModerna-Regular.ttf);
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  /* tipografias */
+  
+  .noto-sans-uniquifier {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  
+  
+  .playwrite-it-moderna-uniquifier {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amaranth-regular {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amaranth-bold {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .amaranth-regular-italic {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .amaranth-bold-italic {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  
+  /* aplicacion de tipografias */
+  h1.nombre {
+    font-family: "Amaranth", Regular 400 at 48px;
+    font-size: 300%;
+    font-style: normal;
+    color: #ffff ;
+  }
+  
+  h2.secciones {
+    font-size: 300%;
+    font-family: 'Aramanth', Regular 400 at 24px;
+    font-style: normal
+    color var(--color-terciary);
+  }
+  
+  p.digitales {
+    font-family: 'Amaranth', Regular 400 ;
+    font-size: 200%;
+    font-style: normal;
+    color: var(--color-terciary);
+  }
+  
+  p.presentacion {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: #ffff;
+  }
+  
+  p.descripciones {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: #ffff;
+  }
+  
+  
+  h3.Contacto {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: var(--color-terciary);
+  }
+  
+  p.contacto {
+    font-family: "Amaranth", Regular 400 at 21px;
+    font-size: 150%;
+    font-style: normal;
+    color: var(--color-terciary);
+  }
+  
+  /* estilos de imagen */
+  img.imgHerramientas {
+    border-radius: 50%;
+    max-width: 20%;
+  }
+  
+  img.imgPerfil { 
+    border-radius: 100%;
+  }
+  
+  img.imgLogo {
+    size: 50%  ;
+  }
+  
+  img.imgDescripcion {
+    border-radius: 100px;
+  }
+  
+  img.imgProyectos {
+    border-radius: 100px;
+  }
+  
+  
+  img.imgProyectos1 {
+    border-radius: 100px;
+  }
+  
+  
+  img.imgEscuelas {
+    border-radius: 100%;
+    size: 200px 200px;
+  }
+  
+  img.imgPasiones {
+    border-radius: 100%;
+  }
+  
+  img.imgContactos {
+    border-radius: 100%;
+  }
+  
+  img.imgRelleno {
+    border-radius: 100px;
+  }
+  
+  
+  /*ICONOS COLOR*/
+  
+  i.bi-c-circle {
+    color: #ffff;
+    flex-direction: flex-end;
+  }
+  
+  
+  /* estilo de perfil */
+  
+  img.imgFondo {
+    width: 100%;
+    height: auto;
+  
+    max-height: 500px;
+    object-fit: cover;
+    z-index: -1;
+    container: 50px 200px;
+  }
+  
+  
+  img.imgPerfil {
+    position: absolute;
+    top: 250px;
+    right: 2px;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    z-index: auto;
+  }
+  
+  /* estilo de barra de navegacion */ 
+  
+  div.navbar-nav {
+    justify-content: end;
+  }
+  
+  nav.barraNavegacion {
+    z-index: 1;
+  }
+  
+  h1.nombre {
+    position: absolute;
+    z-index: auto;
+    top: 200px;
+    left: 25px;
+  }
+  
+  div.p1 {
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 25px;
+  }
+  
+  .descripcionInicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .descripcionInicial section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .imgInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .imgDescripcion {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .descripcion {
+    text-align: center;
+    width: 500px;
+    height: 48px;
+    color:#ffff;
+    font-size: 1vw;
+  }
+  
+  p.descripciones1 {
+    text-align: justify;
+    width: 650px;
+    font-size: 21px;
+    padding: 48px;
+    color: #ffff;
+  }
+  
+  
+  
+  p.descripciones {
+    text-align: justify;
+    width: 650px;
+    font-size: 21px;
+    padding: 48px;
+    color: #ffff;
+  }
+  
+  .separador {
+    height: 24px;
+    width: 80%;
+    background-color: var(--color-primary);
+    margin: 48px 10%;
+  }
+  
+  .secciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #ffff;
+  }
+  
+  p.descripciones2 {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    color: #ffff;
+    font-size: 21px;
+    text-align: left;
+  }
+  
+  
+  p.descripciones3 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 48px;
+    color: #ffff;
+    font-size: 21px;
+    text-align: left;
+    width: 70%;
+  }
+  
+  p.descripciones4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px;
+    color: #ffff;
+    font-size: 21px;
+    text-align: justify;
+    width: 500px;
+    margin-left: 12%;
+  }
+  
+  p.descripciones5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    color: #ffff;
+    font-size: 21px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  p.digitales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    color: #ffff;
+    font-size: 21px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  
+  
