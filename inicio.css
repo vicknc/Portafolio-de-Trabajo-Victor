@@ -120,7 +120,7 @@ p.descripciones {
   font-style: normal;
   color: #ffff;
 }
-
+|
 
 h3.Contacto {
   font-family: "Amaranth", Regular 400 at 21px;
@@ -208,8 +208,8 @@ img.imgPerfil {
   top: 250px;
   right: 2px;
   transform: translate(-50%, -50%);
-  width: 300px;
-  height: 300px;
+  width: 20vw;
+  height: 20vw;
   z-index: auto;
 }
 
@@ -323,8 +323,8 @@ p.descripciones3 {
   padding: 48px;
   color: #ffff;
   font-size: 21px;
-  text-align: left;
-  width: 70%;
+  text-align: center;
+  
 }
 
 p.descripciones4 {
@@ -364,3 +364,21 @@ p.digitales {
 }
 
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.container1 {
+  display: flex;
+  justify-content: center;  
+  
+}
+
+
+.container2 {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
