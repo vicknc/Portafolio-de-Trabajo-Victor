@@ -178,7 +178,11 @@
   }
   
   img.imgRelleno {
-    border-radius: 100px;
+    border-radius: 2vw;
+  }
+  
+  img.imgRelleno2 {
+    border-radius: 2vw;
   }
   
   
@@ -195,7 +199,6 @@
   img.imgFondo {
     width: 100%;
     height: auto;
-  
     max-height: 500px;
     object-fit: cover;
     z-index: -1;
@@ -291,13 +294,7 @@
     color: #ffff;
   }
   
-  .separador {
-    height: 24px;
-    width: 80%;
-    background-color: var(--color-primary);
-    margin: 48px 10%;
-  }
-  
+
   .secciones {
     display: flex;
     justify-content: center;
@@ -305,52 +302,7 @@
     padding: 25px;
     color: #ffff;
   }
-  
-  p.descripciones2 {
-    display: flex;
-    justify-content: center;
-    padding: 48px;
-    color: #ffff;
-    font-size: 21px;
-    text-align: left;
-  }
-  
-  
-  p.descripciones3 {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    padding: 48px;
-    color: #ffff;
-    font-size: 21px;
-    text-align: left;
-    width: 70%;
-  }
-  
-  p.descripciones4 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 48px;
-    color: #ffff;
-    font-size: 21px;
-    text-align: justify;
-    width: 500px;
-    margin-left: 12%;
-  }
-  
-  p.descripciones5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 48px;
-    color: #ffff;
-    font-size: 21px;
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-  }
-  
+
   p.digitales {
     display: flex;
     justify-content: center;
@@ -364,4 +316,24 @@
   }
   
   
+.container1 {
+  display: flex;
+  justify-content: center;  
   
+}
+
+.imgR {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vw;
+}
+  
+.rectangulo {
+  background-color: #FF8906;
+  width: 90%;
+  height: 1vw;
+  justify-content: center;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+}

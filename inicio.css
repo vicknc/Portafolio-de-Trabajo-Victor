@@ -228,7 +228,18 @@ h1.nombre {
   z-index: auto;
   top: 200px;
   left: 25px;
+  width: 50vw;
 }
+
+p.presentacion {
+  position: absolute;
+  z-index: auto;
+  top: 25vw;
+  left: 25px;
+  width: 50vw;
+}
+
+
 
 div.p1 {
   width: 600px;
@@ -291,13 +302,16 @@ p.descripciones {
   color: #ffff;
 }
 
-.separador {
-  height: 24px;
-  width: 80%;
-  background-color: var(--color-primary);
-  margin: 48px 10%;
-}
 
+.rectangulo {
+  background-color: #FF8906;
+  width: 90%;
+  height: 1vw;
+  justify-content: center;
+  margin-left: 5vw;
+ 
+  margin-top: 5vw;
+}
 .secciones {
   display: flex;
   justify-content: center;
@@ -381,4 +395,23 @@ p.digitales {
   display: flex;
   justify-content: center;  
   align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: end;
+}
+
+.footer {
+  display: flex;
+  background-color: var(--color-terciary);
+  height: 3vw;
+  width: 100%;
+  justify-content: right;
+}
+
+
+.iconos {
+  display: flex;
+  max-width: 5vw;
 }
