@@ -364,4 +364,14 @@
   }
   
   
-  
+  .footer {
+    display: flex;
+    background-color: var(--color-terciary);
+    height: 1.7vw;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .container-fluid {
+    height: 5vw;
+  }

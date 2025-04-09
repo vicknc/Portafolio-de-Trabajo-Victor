@@ -401,17 +401,10 @@ p.digitales {
   display: flex;
   justify-content: end;
 }
-
 .footer {
-  display: flex;
-  background-color: var(--color-terciary);
-  height: 3vw;
-  width: 100%;
-  justify-content: right;
-}
-
-
-.iconos {
-  display: flex;
-  max-width: 5vw;
-}
+    display: flex;
+    background-color: var(--color-terciary);
+    height: 1.7vw;
+    width: 100%;
+    justify-content: space-between;
+  }

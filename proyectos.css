@@ -180,16 +180,24 @@ div.DESC {
     z-index: 1;
   }
   
-
-  .separador {
-    height: 24px;
+  .rectangulo {
+    background-color: #FF8906;
     width: 90%;
-    background-color: var(--color-primary);
-    margin: 48px 5vw;
+    height: 1vw;
+    justify-content: center;
+    margin-left: 5vw; 
+    margin-top: 5vw;
+    margin-bottom: 5vw;
   }
-  
+
  .secciones {
   display: flex;
   justify-content: center;
  }
-
+ .footer {
+  display: flex;
+  background-color: var(--color-terciary);
+  height: 1.7vw;
+  width: 100%;
+  justify-content: space-between;
+}
