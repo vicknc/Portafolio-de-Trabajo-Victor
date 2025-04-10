@@ -134,6 +134,7 @@
     font-size: 150%;
     font-style: normal;
     color: var(--color-terciary);
+    color:black;
   }
   
   /* estilos de imagen */
@@ -369,9 +370,61 @@
     background-color: var(--color-terciary);
     height: 1.7vw;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-between ;
+    
+
   }
 
-  .container-fluid {
-    height: 5vw;
+  h3.Contacto {
+    display: flex;
+    justify-content: center;
   }
+
+  .con-contactos {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .correo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10vw ;
+    justify-content: space-evenly;
+    margin: 1.5vw;
+    font-size: 1.7vw;
+  }
+
+  .facebook {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    font-size: 1.7vw;
+  }
+
+  .telefono {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+img.imgCorreo {
+  border-radius: 10vw;
+  width: 17vw;
+}
+img.imgFacebook {
+  border-radius: 10vw;
+  width: 15vw;
+}
+img.imgTelefono {
+  border-radius: 10vw;
+  width: 15vw;
+}
