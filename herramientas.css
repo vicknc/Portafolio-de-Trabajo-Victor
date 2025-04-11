@@ -500,7 +500,7 @@ img.imgHerramientas {
 
 .INKSCAPE {
   display: flex;
-  width: auto;
+  width: 45vw;
   background-color: #36687F;
   border-radius: 10vw;
   flex-direction: row-reverse;
@@ -552,6 +552,11 @@ img.imgHerramientas {
   text-align: center;
   margin: 1vw;
   padding: 0.5vw;
+}
+
+.imgHerramientas1 {
+  width: 5vw;
+  height: 5vw;
 }
 
 .PTT {
