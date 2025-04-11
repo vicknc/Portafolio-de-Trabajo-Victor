@@ -356,18 +356,277 @@
   flex-direction: column;
   text-align: center;
   margin-left: 9vw;
+  justify-content: space-evenly;
 }
 
 .ACAD {
   display: flex;
-  width: 30vw;
+  width: auto;
   background-color: #E51050;
   border-radius: 10vw;
   flex-direction: row-reverse;
   text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
 }
 
 img.imgHerramientas {
-  max-width: 20vw;
+  max-width: 30vw;
   height: auto;
+}
+
+.AI {
+  display: flex;
+  width: auto;
+  background-color: #FF9A00;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.MAX {
+  display: flex;
+  width: 33vw;
+  height: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.AE {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.ASPIRE {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: #C73541;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.AE {
+  display: flex;
+  width: auto;
+  background-color: #9999FF;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.CURA {
+  display: flex;
+  width: auto;
+  background-color: #1766DD;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.CANVA {
+  display: flex;
+  width: auto;
+  background-color: #5053E6;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.ICONS8 {
+  display: flex;
+  width: auto;
+  background-color: #44BF62;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.PS {
+  display: flex;
+  width: auto;
+  background-color: #0E314D;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.SHARP3D {
+  display: flex;
+  width: 45vw;
+  background-color: #5779F1;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.GIMP {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.INKSCAPE {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.FIGMA {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.IDX {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.BRACKETS {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.BOOTSTRAP {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.PTT {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.WRD {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.CLIPCHAMP {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.ARTIVIVE {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.VENICE {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.DPSK {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
+}
+
+.SUNO {
+  display: flex;
+  width: auto;
+  background-color: #36687F;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin: 1vw;
+  padding: 0.5vw;
 }
