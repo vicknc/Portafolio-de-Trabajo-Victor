@@ -371,8 +371,7 @@
     height: 1.7vw;
     width: 100%;
     justify-content: space-between ;
-    
-
+    margin-top: 2vw;
   }
 
   h3.Contacto {
@@ -386,6 +385,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    text-align: center;
   }
 
   .correo {
@@ -402,19 +402,51 @@
     font-size: 1.7vw;
   }
 
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  width: 85%;
+  font-size: 1.7vw;
+  padding: 1.7vw
+}
+
+
   .facebook {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    text-align: center;
+    width: 37vw;
+    text-align: row;
+    justify-content: left;
     font-size: 1.7vw;
+    background-color: #364E81;
+    border-radius: 10vw;
+  }
+
+  .FB {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 2vw;
   }
 
   .telefono {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 37   vw;
+    background-color: #48B371;
+    border-radius: 10vw;
+    text-align: center;
   }
+
+.tel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 8vw;
+}
 
 img.imgCorreo {
   border-radius: 10vw;
@@ -423,8 +455,12 @@ img.imgCorreo {
 img.imgFacebook {
   border-radius: 10vw;
   width: 15vw;
+  display: flex;
+  justify-content: left;
 }
 img.imgTelefono {
   border-radius: 10vw;
   width: 15vw;
+  margin-left: 5vw;
 }
+
