@@ -301,6 +301,7 @@
     align-items: center;
     padding: 25px;
     color: #ffff;
+    margin-bottom: 3vw;
   }
 
   p.digitales {
@@ -309,7 +310,7 @@
     align-items: center;
     padding: 48px;
     color: #ffff;
-    font-size: 21px;
+    font-size: 50px;
     text-align: center;
     width: 70%;
     margin: 0 auto;
@@ -344,4 +345,29 @@
   height: 1.7vw;
   width: 100%;
   justify-content: space-between;
+}
+
+.Herramientas {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 80vw;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 9vw;
+}
+
+.ACAD {
+  display: flex;
+  width: 30vw;
+  background-color: #E51050;
+  border-radius: 10vw;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+img.imgHerramientas {
+  max-width: 20vw;
+  height: auto;
 }
