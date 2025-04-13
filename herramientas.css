@@ -388,7 +388,7 @@ img.imgHerramientas {
 
 .MAX {
   display: flex;
-  width: 33vw;
+  width: auto;
   height: auto;
   background-color: #36687F;
   border-radius: 10vw;
@@ -478,7 +478,7 @@ img.imgHerramientas {
 
 .SHARP3D {
   display: flex;
-  width: 45vw;
+  width: auto;
   background-color: #5779F1;
   border-radius: 10vw;
   flex-direction: row-reverse;
@@ -500,7 +500,7 @@ img.imgHerramientas {
 
 .INKSCAPE {
   display: flex;
-  width: 45vw;
+  width: auto;
   background-color: #36687F;
   border-radius: 10vw;
   flex-direction: row-reverse;
@@ -521,54 +521,11 @@ img.imgHerramientas {
   padding: 0.5vw;
 }
 
-.IDX {
-  display: flex;
-  width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
-  flex-direction: row-reverse;
-  text-align: center;
-  margin: 1vw;
-  padding: 0.5vw;
-}
-
-.BRACKETS {
-  display: flex;
-  width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
-  flex-direction: row-reverse;
-  text-align: center;
-  margin: 1vw;
-  padding: 0.5vw;
-}
-
-.BOOTSTRAP {
-  display: flex;
-  width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
-  flex-direction: row-reverse;
-  text-align: center;
-  margin: 1vw;
-  padding: 0.5vw;
-}
-
 .imgHerramientas1 {
-  width: 5vw;
-  height: 5vw;
+  width: 3vw;
+  height: auto;
 }
 
-.PTT {
-  display: flex;
-  width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
-  flex-direction: row-reverse;
-  text-align: center;
-  margin: 1vw;
-  padding: 0.5vw;
-}
 
 .WRD {
   display: flex;
@@ -581,27 +538,6 @@ img.imgHerramientas {
   padding: 0.5vw;
 }
 
-.CLIPCHAMP {
-  display: flex;
-  width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
-  flex-direction: row-reverse;
-  text-align: center;
-  margin: 1vw;
-  padding: 0.5vw;
-}
-
-.ARTIVIVE {
-  display: flex;
-  width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
-  flex-direction: row-reverse;
-  text-align: center;
-  margin: 1vw;
-  padding: 0.5vw;
-}
 
 .VENICE {
   display: flex;
@@ -610,18 +546,7 @@ img.imgHerramientas {
   border-radius: 10vw;
   flex-direction: row-reverse;
   text-align: center;
-  margin: 1vw;
-  padding: 0.5vw;
-}
-
-.DPSK {
-  display: flex;
-  width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
-  flex-direction: row-reverse;
-  text-align: center;
-  margin: 1vw;
+  margin: 1.5vw;
   padding: 0.5vw;
 }
 
