@@ -408,3 +408,10 @@ p.digitales {
     width: 100%;
     justify-content: space-between;
   }
+
+  .nav-link:hover {
+    border-radius: 150vw;
+    background-color: #FF8906;
+    color: #000000;
+    border:2px solid #000000;
+  }

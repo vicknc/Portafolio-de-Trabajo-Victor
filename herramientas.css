@@ -347,19 +347,24 @@
   justify-content: space-between;
 }
 
+/*ayuda de la ia*/
 .container2 {
-  display: flex;
-  justify-content: row;
-  width: 80%;
-  background-color: white;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
+/*.........................*/
 .ACAD {
   display: flex;
   width: auto;
   background-color: #E51050;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -375,7 +380,7 @@ img.imgHerramientas {
   display: flex;
   width: auto;
   background-color: #FF9A00;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -387,7 +392,7 @@ img.imgHerramientas {
   width: auto;
   height: auto;
   background-color: #36687F;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -398,7 +403,7 @@ img.imgHerramientas {
   display: flex;
   width: auto;
   background-color: #36687F;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -410,7 +415,7 @@ img.imgHerramientas {
   width: auto;
   height: auto;
   background-color: #C73541;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -421,7 +426,7 @@ img.imgHerramientas {
   display: flex;
   width: auto;
   background-color: #9999FF;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -432,7 +437,7 @@ img.imgHerramientas {
   display: flex;
   width: auto;
   background-color: #1766DD;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -443,7 +448,7 @@ img.imgHerramientas {
   display: flex;
   width: auto;
   background-color: #5053E6;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -454,7 +459,7 @@ img.imgHerramientas {
   display: flex;
   width: auto;
   background-color: #44BF62;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -465,7 +470,7 @@ img.imgHerramientas {
   display: flex;
   width: auto;
   background-color: #0E314D;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -474,9 +479,9 @@ img.imgHerramientas {
 
 .SHARP3D {
   display: flex;
-  width: auto;
+  max-width: auto;
   background-color: #5779F1;
-  border-radius: 10vw;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -486,8 +491,8 @@ img.imgHerramientas {
 .GIMP {
   display: flex;
   width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
+  background-color: #4D4637;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -496,9 +501,9 @@ img.imgHerramientas {
 
 .INKSCAPE {
   display: flex;
-  width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
+  max-width: auto;
+  background-color: #1b1b1b;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -509,8 +514,8 @@ img.imgHerramientas {
   display: flex;
   width: auto;
   height: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
+  background-color: #10719C;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -518,16 +523,16 @@ img.imgHerramientas {
 }
 
 .imgHerramientas1 {
-  width: 3vw;
-  height: auto;
+  max-width: auto;
+
 }
 
 
 .WRD {
   display: flex;
   width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
+  background-color: #103F91;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
@@ -537,9 +542,9 @@ img.imgHerramientas {
 
 .VENICE {
   display: flex;
-  width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
+  max-width: auto;
+  background-color: #000000;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1.5vw;
@@ -549,10 +554,18 @@ img.imgHerramientas {
 .SUNO {
   display: flex;
   width: auto;
-  background-color: #36687F;
-  border-radius: 10vw;
+  background-color: #000000;
+  border-radius: 150vw;
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
   padding: 0.5vw;
+}
+
+
+.nav-link:hover {
+  border-radius: 150vw;
+  background-color: #FF8906;
+  color: #000000;
+  border:2px solid #000000;
 }
