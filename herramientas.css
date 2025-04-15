@@ -217,9 +217,10 @@
   }
   
   /* estilo de barra de navegacion */ 
-  
   div.navbar-nav {
-    justify-content: end;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
   }
   
   nav.barraNavegacion {

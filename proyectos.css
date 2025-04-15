@@ -126,8 +126,19 @@
  
   img.imgProyectos {
     border-radius: 100vw;
-    max-width: 50vw;
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
   }
+
+  
+  img.imgProyectos1 {
+    border-radius: 100vw;
+    width: 13vw;
+    height: 13vw;
+    object-fit: cover;
+  }
+  
   
 div.proyectosIMG {
   display: flex;
@@ -136,9 +147,8 @@ div.proyectosIMG {
   
 .container {
   display: flex;
-  justify-content: space-evenly;
-  align-self: center;
-  size: 60%;
+  justify-content: center;
+  padding-bottom: 5vw;
 }
 
 
@@ -171,9 +181,10 @@ div.DESC {
   
  
   /* estilo de barra de navegacion */ 
-  
   div.navbar-nav {
-    justify-content: end;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
   }
   
   nav.barraNavegacion {
@@ -209,4 +220,17 @@ div.DESC {
   background-color: #FF8906;
   color: #000000;
   border:2px solid #000000;
+}
+
+
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3,25vw);
+  gap: 5vw;
+  width: 100%;
+  padding: 1vw;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
 }

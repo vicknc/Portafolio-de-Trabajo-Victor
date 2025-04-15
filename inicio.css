@@ -165,8 +165,11 @@ img.imgProyectos1 {
 
 
 img.imgEscuelas {
-  border-radius: 100%;
-  size: 200px 200px;
+  margin: auto;
+  border-radius: 150vw;
+  width: 15vw;
+  height: 15vw;
+  padding: 2vw;
 }
 
 img.imgPasiones {
@@ -214,9 +217,10 @@ img.imgPerfil {
 }
 
 /* estilo de barra de navegacion */ 
-
 div.navbar-nav {
-  justify-content: end;
+  justify-content: right;
+  text-align: center;
+  align-items: center;
 }
 
 nav.barraNavegacion {
@@ -381,20 +385,27 @@ p.digitales {
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 
 .container1 {
   display: flex;
   justify-content: center;  
+  align-items: center;flex-direction: center;
   
 }
 
 
 .container2 {
-  display: flex;
-  justify-content: center;  
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5vw;
+  width: 100%;
+  max-width: 1200px;
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-content: center;
 }
 
 .navbar-nav {

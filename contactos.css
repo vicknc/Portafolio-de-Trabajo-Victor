@@ -217,7 +217,9 @@
   /* estilo de barra de navegacion */ 
   
   div.navbar-nav {
-    justify-content: end;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
   }
   
   nav.barraNavegacion {
@@ -482,6 +484,13 @@ a:hover {
   border:2px solid #000000;
 }
 
-a::before {
-  content: "👉";
+a.medios::before {
+  content: "";
+  opacity: 0;
+}
+
+a.medios:hover::before {
+  content: "➡️";
+  opacity: 1;
+  transition: opacity 0.3s;
 }
