@@ -219,6 +219,7 @@ div.DESC {
   display: flex;
   background-color: var(--color-terciary);
   height: 1.7vw;
+  margin-top: 5vw;
   width: 100%;
   justify-content: space-between;
 }
@@ -254,5 +255,6 @@ div.DESC {
   }
 
   
+
   
 }
