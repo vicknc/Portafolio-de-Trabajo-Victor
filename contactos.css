@@ -420,10 +420,9 @@ padding: 1.7vw
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  width: 40%;
-  text-align: center;
+  width: 40vw;
+  height: 15vw;
   justify-content: left;
-  font-size: 1.7vw;
   background-color: #364E81;
   border-radius: 150vw;
 }
@@ -476,7 +475,7 @@ p.contacto {
     padding-left: 20vw;
   }
   
-  .telefono2 {
+  .telefono3 {
     width: 90vw;
     display: flex;
     justify-content: right;
@@ -496,11 +495,13 @@ p.contacto {
 .FB {
   display: flex;
   flex-direction: column-reverse;
-  margin-left: 2vw;
-  margin: 1vw;
+  margin-left: 5vw;
+  text-align: center;
+  font-size: 1.7vw;
+  justify-content: center;
 }
 
-.telefono1 {
+.telefono2 {
   width: 45vw;
   display: flex;
   justify-content: right;
@@ -509,6 +510,7 @@ p.contacto {
   background-color: #48B371;
   border-radius: 150vw;
   text-align: center;
+  
 }
 
 .tel {
