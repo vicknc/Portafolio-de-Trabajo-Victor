@@ -217,10 +217,20 @@ img.imgPerfil {
 }
 
 /* estilo de barra de navegacion */ 
-div.navbar-nav {
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+@media all and (max-width: 600px) {
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
   justify-content: right;
-  text-align: center;
-  align-items: center;
+  text-align:center;
+}
 }
 
 nav.barraNavegacion {

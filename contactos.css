@@ -1,496 +1,560 @@
 /* Add styles here */
 
 :root {
-    /* here variables goes */
-    --color-primary: #FF8906;
-  }
-  
-   
-  /* colores */
-  :root {
-  --color-secundary: #0F0E17;
-  
-  }
-  
-  :root {
-    --color-terciary: #D9D9D9;
-  }
-  
-  div.cuerpo {
-    background-color: var(--color-secundary);
-  }
-  
-  /* importar bootstrap */
-  @import '~bootstrap/dist/css/bootstrap.min.css';
-  
-  body.pagina {
-    background-color: #0F0E17;
-  }
-  /* tipografias */
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
-  @import url(Noto_Sans/static/NotoSans-Regular.ttf);
-  @import url(Playwrite_IT_Moderna/static/PlaywriteITModerna-Regular.ttf);
-  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-  /* tipografias */
-  
-  .noto-sans-uniquifier {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  
-  
-  
-  .playwrite-it-moderna-uniquifier {
-    font-family: "Playwrite IT Moderna", cursive;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  
-  .alata-regular {
-    font-family: "Alata", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .amaranth-regular {
-    font-family: "Amaranth", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .amaranth-bold {
-    font-family: "Amaranth", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .amaranth-regular-italic {
-    font-family: "Amaranth", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .amaranth-bold-italic {
-    font-family: "Amaranth", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  
-  /* aplicacion de tipografias */
-  h1.nombre {
-    font-family: "Amaranth", Regular 400 at 48px;
-    font-size: 300%;
-    font-style: normal;
-    color: #ffff ;
-  }
-  
-  h2.secciones {
-    font-size: 300%;
-    font-family: 'Aramanth', Regular 400 at 24px;
-    font-style: normal
-    color var(--color-terciary);
-  }
-  
-  p.digitales {
-    font-family: 'Amaranth', Regular 400 ;
-    font-size: 200%;
-    font-style: normal;
-    color: var(--color-terciary);
-  }
-  
-  p.presentacion {
-    font-family: "Amaranth", Regular 400 at 21px;
-    font-size: 150%;
-    font-style: normal;
-    color: #ffff;
-  }
-  
-  p.descripciones {
-    font-family: "Amaranth", Regular 400 at 21px;
-    font-size: 150%;
-    font-style: normal;
-    color: #ffff;
-  }
-  
-  
-  h3.Contacto {
-    font-family: "Amaranth", Regular 400 at 21px;
-    font-size: 150%;
-    font-style: normal;
-    color: var(--color-terciary);
-  }
-  
-  p.contacto {
-    font-family: "Amaranth", Regular 400 at 21px;
-    font-size: 150%;
-    font-style: normal;
-    color: var(--color-terciary);
-    color:black;
-  }
-  
-  /* estilos de imagen */
-  img.imgHerramientas {
-    border-radius: 50%;
-    max-width: 20%;
-  }
-  
-  img.imgPerfil { 
-    border-radius: 100%;
-  }
-  
-  img.imgLogo {
-    size: 50%  ;
-  }
-  
-  img.imgDescripcion {
-    border-radius: 100px;
-  }
-  
-  img.imgProyectos {
-    border-radius: 100px;
-  }
-  
-  
-  img.imgProyectos1 {
-    border-radius: 100px;
-  }
-  
-  
-  img.imgEscuelas {
-    border-radius: 100%;
-    size: 200px 200px;
-  }
-  
-  img.imgPasiones {
-    border-radius: 100%;
-  }
-  
-  img.imgContactos {
-    border-radius: 100%;
-  }
-  
-  img.imgRelleno {
-    border-radius: 100px;
-  }
-  
-  
-  /*ICONOS COLOR*/
-  
-  i.bi-c-circle {
-    color: #ffff;
-    flex-direction: flex-end;
-  }
-  
-  
-  /* estilo de perfil */
-  
-  img.imgFondo {
-    width: 100%;
-    height: auto;
-  
-    max-height: 500px;
-    object-fit: cover;
-    z-index: -1;
-    container: 50px 200px;
-  }
-  
-  
-  img.imgPerfil {
-    position: absolute;
-    top: 250px;
-    right: 2px;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    height: 300px;
-    z-index: auto;
-  }
-  
-  /* estilo de barra de navegacion */ 
-  
-  div.navbar-nav {
-    justify-content: right;
-    text-align: center;
-    align-items: center;
-  }
-  
-  nav.barraNavegacion {
-    z-index: 1;
-  }
-  
-  h1.nombre {
-    position: absolute;
-    z-index: auto;
-    top: 200px;
-    left: 25px;
-  }
-  
-  div.p1 {
-    width: 600px;
-    height: 50px;
-    position: absolute;
-    top: 300px;
-    left: 25px;
-  }
-  
-  .descripcionInicial {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .descripcionInicial section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .imgInicio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-  }
-  
-  .imgDescripcion {
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .descripcion {
-    text-align: center;
-    width: 500px;
-    height: 48px;
-    color:#ffff;
-    font-size: 1vw;
-  }
-  
-  p.descripciones1 {
-    text-align: justify;
-    width: 650px;
-    font-size: 21px;
-    padding: 48px;
-    color: #ffff;
-  }
-  
-  
-  
-  p.descripciones {
-    text-align: justify;
-    width: 650px;
-    font-size: 21px;
-    padding: 48px;
-    color: #ffff;
-  }
-  
-  .separador {
-    height: 24px;
-    width: 80%;
-    background-color: var(--color-primary);
-    margin: 48px 10%;
-  }
-  
-  .secciones {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-    color: #ffff;
-  }
-  
-  p.descripciones2 {
-    display: flex;
-    justify-content: center;
-    padding: 48px;
-    color: #ffff;
-    font-size: 21px;
-    text-align: left;
-  }
-  
-  
-  p.descripciones3 {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    padding: 48px;
-    color: #ffff;
-    font-size: 21px;
-    text-align: left;
-    width: 70%;
-  }
-  
-  p.descripciones4 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 48px;
-    color: #ffff;
-    font-size: 21px;
-    text-align: justify;
-    width: 500px;
-    margin-left: 12%;
-  }
-  
-  p.descripciones5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 48px;
-    color: #ffff;
-    font-size: 21px;
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-  }
-  
-  p.digitales {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 48px;
-    color: #ffff;
-    font-size: 21px;
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-  }
-  
-  
-  .footer {
-    display: flex;
-    background-color: var(--color-terciary);
-    height: 1.7vw;
-    width: 100%;
-    justify-content: space-between ;
-    margin-top: 2vw;
-  }
+  /* here variables goes */
+  --color-primary: #FF8906;
+}
 
-  h3.Contacto {
-    display: flex;
-    justify-content: center;
-  }
+ 
+/* colores */
+:root {
+--color-secundary: #0F0E17;
 
-  .con-contactos {
-    display: flex;
-    flex-direction: row;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-  }
+}
 
-  .correo {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    align-items: center;
-    width: 80%;
-    background-color: white;
-    text-align: center;
-    border-radius: 10vw ;
-    justify-content: space-evenly;
-    margin: 1.5vw;
-    font-size: 1.7vw;
-  }
+:root {
+  --color-terciary: #D9D9D9;
+}
 
-.redes{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
-  width: 85%;
-  font-size: 1.7vw;
-  padding: 1.7vw
+div.cuerpo {
+  background-color: var(--color-secundary);
+}
+
+/* importar bootstrap */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body.pagina {
+  background-color: #0F0E17;
+}
+/* tipografias */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url(Noto_Sans/static/NotoSans-Regular.ttf);
+@import url(Playwrite_IT_Moderna/static/PlaywriteITModerna-Regular.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* tipografias */
+
+.noto-sans-uniquifier {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
-  .facebook {
+
+.playwrite-it-moderna-uniquifier {
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.alata-regular {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaranth-regular {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaranth-bold {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.amaranth-regular-italic {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.amaranth-bold-italic {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* aplicacion de tipografias */
+h1.nombre {
+  font-family: "Amaranth", Regular 400 at 48px;
+  font-size: 300%;
+  font-style: normal;
+  color: #ffff ;
+}
+
+h2.secciones {
+  font-size: 300%;
+  font-family: 'Aramanth', Regular 400 at 24px;
+  font-style: normal
+  color var(--color-terciary);
+}
+
+p.digitales {
+  font-family: 'Amaranth', Regular 400 ;
+  font-size: 200%;
+  font-style: normal;
+  color: var(--color-terciary);
+}
+
+p.presentacion {
+  font-family: "Amaranth", Regular 400 at 21px;
+  font-size: 150%;
+  font-style: normal;
+  color: #ffff;
+}   
+
+p.descripciones {
+  font-family: "Amaranth", Regular 400 at 21px;
+  font-size: 150%;
+  font-style: normal;
+  color: #ffff;
+}
+
+
+h3.Contacto {
+  font-family: "Amaranth", Regular 400 at 21px;
+  font-size: 150%;
+  font-style: normal;
+  color: var(--color-terciary);
+}
+
+p.contacto {
+  font-family: "Amaranth", Regular 400 at 21px;
+  font-size: 150%;
+  font-style: normal;
+  color: var(--color-terciary);
+  color:black;
+}
+
+/* estilos de imagen */
+img.imgHerramientas {
+  border-radius: 50%;
+  max-width: 20%;
+}
+
+img.imgPerfil { 
+  border-radius: 100%;
+}
+
+img.imgLogo {
+  size: 50%  ;
+}
+
+img.imgDescripcion {
+  border-radius: 100px;
+}
+
+img.imgProyectos {
+  border-radius: 100px;
+}
+
+
+img.imgProyectos1 {
+  border-radius: 100px;
+}
+
+
+img.imgEscuelas {
+  border-radius: 100%;
+  size: 200px 200px;
+}
+
+img.imgPasiones {
+  border-radius: 100%;
+}
+
+img.imgContactos {
+  border-radius: 100%;
+}
+
+img.imgRelleno {
+  border-radius: 100px;
+}
+
+
+/*ICONOS COLOR*/
+
+i.bi-c-circle {
+  color: #ffff;
+  flex-direction: flex-end;
+}
+
+
+/* estilo de perfil */
+
+img.imgFondo {
+  width: 100%;
+  height: auto;
+
+  max-height: 500px;
+  object-fit: cover;
+  z-index: -1;
+  container: 50px 200px;
+}
+
+
+img.imgPerfil {
+  position: absolute;
+  top: 250px;
+  right: 2px;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  z-index: auto;
+}
+
+/* estilo de barra de navegacion */ 
+
+div.navbar-nav {
+  justify-content: right;
+  text-align: center;
+  align-items: center;
+}
+
+nav.barraNavegacion {
+  z-index: 1;
+}
+
+h1.nombre {
+  position: absolute;
+  z-index: auto;
+  top: 200px;
+  left: 25px;
+}
+
+div.p1 {
+  width: 600px;
+  height: 50px;
+  position: absolute;
+  top: 300px;
+  left: 25px;
+}
+
+.descripcionInicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.descripcionInicial section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imgInicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.imgDescripcion {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  text-align: center;
+  width: 500px;
+  height: 48px;
+  color:#ffff;
+  font-size: 1vw;
+}
+
+p.descripciones1 {
+  text-align: justify;
+  width: 650px;
+  font-size: 21px;
+  padding: 48px;
+  color: #ffff;
+}
+
+
+
+p.descripciones {
+  text-align: justify;
+  width: 650px;
+  font-size: 21px;
+  padding: 48px;
+  color: #ffff;
+}
+
+.separador {
+  height: 24px;
+  width: 80%;
+  background-color: var(--color-primary);
+  margin: 48px 10%;
+}
+
+h2.secciones {
+  justify-content: center;
+  text-align: center;
+  font-size: 10vh;
+  color: #ffff;
+}
+
+p.descripciones2 {
+  display: flex;
+  justify-content: center;
+  padding: 48px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: left;
+}
+
+
+p.descripciones3 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 48px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: left;
+  width: 70%;
+}
+
+p.descripciones4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 48px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: justify;
+  width: 500px;
+  margin-left: 12%;
+}
+
+p.descripciones5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+p.digitales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  color: #ffff;
+  font-size: 21px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+.footer {
+  display: flex;
+  background-color: var(--color-terciary);
+  height: 5vh;
+  width: 100%;
+  justify-content: space-between ;
+  margin-top: 2vw;
+}
+
+h3.Contacto {
+  justify-content: center;
+  font-size: 5vh;
+  text-align: center;
+
+}
+
+.con-contactos {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.correo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 90%;
+  background-color: white;
+  text-align: center;
+  border-radius: 10vw ;
+  justify-content: space-evenly;
+  font-size: 1.7vw;
+}
+
+
+.redes{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-align: center;
+width: 95%;
+font-size: 1.7vw;
+padding: 1.7vw
+}
+
+
+.facebook {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 40%;
+  text-align: center;
+  justify-content: left;
+  font-size: 1.7vw;
+  background-color: #364E81;
+  border-radius: 150vw;
+}
+
+p.contacto {
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+@media all and (max-width: 600px) {
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: right;
+  text-align:center;
+}
+}
+
+@media all and (max-width: 600px) {
+
+
+  .redes {
+    width: 100%;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
-    width: 37vw;
-    text-align: row;
+    justify-content: center;
+    text-align: center;
     justify-content: left;
     font-size: 1.7vw;
-    background-color: #364E81;
-    border-radius: 10vw;
+    
+  }
+
+  .facebook {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    margin: 1.7vh;
   }
 
   .FB {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-left: 2vw;
-    margin: 1vw;
+    padding-left: 20vw;
   }
-
-  .telefono {
+  
+  .telefono2 {
+    width: 90vw;
     display: flex;
-    justify-content: auto;
+    justify-content: right;
     flex-direction: row;
     align-items: center;
-    width: auto;
     background-color: #48B371;
-    border-radius: 10vw;
+    border-radius: 150vw;
     text-align: center;
+    margin: 1.7vw;
   }
 
-.tel {
+  .tel {
+    margin-right: 20vw;
+  }
+}
+
+.FB {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 8vw;
+  flex-direction: column-reverse;
+  margin-left: 2vw;
+  margin: 1vw;
+}
+
+.telefono1 {
+  width: 45vw;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  align-items: center;
+  background-color: #48B371;
+  border-radius: 150vw;
+  text-align: center;
+}
+
+.tel {
+justify-content: center;
 }
 
 img.imgCorreo {
-  border-radius: 10vw;
-  width: 17vw;
+border-radius: 10vw;
+width: 17vw;
 }
 img.imgFacebook {
-  border-radius: 10vw;
-  width: 15vw;
-  display: flex;
-  justify-content: left;
+border-radius: 10vw;
+width: 15vw;
+display: flex;
+justify-content: left;
 }
 img.imgTelefono {
-  border-radius: 10vw;
-  width: 15vw;
-  margin-left: 5vw;
+border-radius: 10vw;
+width: 15vw;
+margin-left: 5vw;
 }
 
 
 .nav-link:hover {
-  border-radius: 150vw;
-  background-color: #FF8906;
-  color: #000000;
-  border:2px solid #000000;
+width: 100%;
+border-radius: 150vw;
+background-color: #FF8906;
+color: #000000;
+border:2px solid #000000;
 }
 
 a:hover {
-  height: auto;
-  border-radius: 150vw;
-  background-color: #FF8906;
-  color: #000000;
-  border:2px solid #000000;
+height: auto;
+border-radius: 150vw;
+background-color: #FF8906;
+color: #000000;
+border:2px solid #000000;
 }
 
 a.medios::before {
-  content: "";
-  opacity: 0;
+content: "";
+opacity: 0;
 }
 
 a.medios:hover::before {
-  content: "➡️";
-  opacity: 1;
-  transition: opacity 0.3s;
+content: "➡️";
+opacity: 1;
+transition: opacity 0.3s;
 }
