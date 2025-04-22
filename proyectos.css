@@ -188,13 +188,13 @@ div.DESC {
   }
   
   @media all and (max-width: 600px) {
-  .navbar-nav {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    justify-content: right;
-    text-align:center;
-  }
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      justify-content: right;
+      text-align:center;
+    }
   }
   
   nav.barraNavegacion {
@@ -254,7 +254,41 @@ div.DESC {
     justify-content: baseline;
   }
 
-  
+  .container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
-  
+
+
+  .desc {
+    display: flex;
+    width: 80%;
+    font-size: 9px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .imgP{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .imgPro {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  img.imgProyectos1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100vw;
+    object-fit: cover;
+  }
 }
