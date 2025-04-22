@@ -333,12 +333,8 @@
     margin: 0 auto;
   }
   
+
   
-.container1 {
-  display: flex;
-  justify-content: center;  
-  
-}
 
 .imgR {
   display: flex;
@@ -635,4 +631,9 @@ img.imgHerramientas {
   p.digitales {
     font-size: 6vw;
   }
+
+  h2.secciones {
+    font-size: 30px;
+  }
 }
+

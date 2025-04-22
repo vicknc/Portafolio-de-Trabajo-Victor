@@ -418,10 +418,6 @@ p.digitales {
   justify-content: center;
 }
 
-.navbar-nav {
-  display: flex;
-  justify-content: end;
-}
 .footer {
     display: flex;
     background-color: var(--color-terciary);
