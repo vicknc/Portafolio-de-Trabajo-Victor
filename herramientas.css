@@ -179,10 +179,16 @@
   
   img.imgRelleno {
     border-radius: 2vw;
+    width: 15vw;
+    height: 12vw;
+    padding: 0.5vw;
   }
   
   img.imgRelleno2 {
     border-radius: 2vw;
+    width: 15vw;
+    height: 18vw;
+    padding: 0.5vw;
   }
   
   
@@ -300,7 +306,7 @@
   p.descripciones {
     text-align: justify;
     width: 650px;
-    font-size: 21px;
+    font-size: 1.6vw;
     padding: 48px;
     color: #ffff;
   }
@@ -371,6 +377,12 @@
 }
 
 /*.........................*/
+
+img.imgHerramientas {
+  max-width: 30vw;
+  height: auto;
+}
+
 .ACAD {
   display: flex;
   width: auto;
@@ -380,11 +392,6 @@
   text-align: center;
   margin: 1vw;
   padding: 0.5vw;
-}
-
-img.imgHerramientas {
-  max-width: 30vw;
-  height: auto;
 }
 
 .AI {
@@ -533,12 +540,6 @@ img.imgHerramientas {
   padding: 0.5vw;
 }
 
-.imgHerramientas1 {
-  max-width: auto;
-
-}
-
-
 .WRD {
   display: flex;
   width: auto;
@@ -589,4 +590,49 @@ img.imgHerramientas {
     justify-content: baseline;
   }
 
+  .container1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textodesc2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .imgR {
+    width: 100%;
+    background-color: #C73541;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .imgRelleno {
+    max-width: 200px;
+  }
+
+  img.imgHerramientas {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+  }
+ 
+  .container2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  p.digitales {
+    font-size: 6vw;
+  }
 }
