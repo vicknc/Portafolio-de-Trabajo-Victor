@@ -244,3 +244,15 @@ div.DESC {
   align-items: center;
   place-items: center;
 }
+
+@media all and (max-width: 600px) {
+
+  .footer {
+    display: flex;
+    height: 5vh;
+    justify-content: baseline;
+  }
+
+  
+  
+}

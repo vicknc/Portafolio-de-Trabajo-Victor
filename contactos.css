@@ -490,6 +490,11 @@ p.contacto {
   .tel {
     margin-right: 20vw;
   }
+
+  .footer {
+    display: flex;
+    justify-content: baseline;
+  }
 }
 
 .FB {
