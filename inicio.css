@@ -224,13 +224,13 @@ img.imgPerfil {
 }
 
 @media all and (max-width: 600px) {
-.navbar-nav {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  justify-content: right;
-  text-align:center;
-}
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: right;
+    text-align:center;
+  }
 }
 
 nav.barraNavegacion {
@@ -438,7 +438,12 @@ p.digitales {
     .footer {
       display: flex;
       height: 5vh;
-      justify-content: baseline;
+      position: fixed;
+      bottom: 0;
     }
-    
+   
+    div.descripcionInicial {
+      
+    }
+
   }

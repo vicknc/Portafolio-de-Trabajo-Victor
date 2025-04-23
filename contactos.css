@@ -451,6 +451,13 @@ p.contacto {
 
 @media all and (max-width: 600px) {
 
+  h2.secciones {
+    font-size: 30px;
+  }
+
+  h3.Contacto {
+    font-size: 20px;
+  }
 
   .redes {
     width: 100%;
@@ -492,8 +499,14 @@ p.contacto {
   }
 
   .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
-    justify-content: baseline;
+    text-align: center;
+    flex-direction: baseline;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 

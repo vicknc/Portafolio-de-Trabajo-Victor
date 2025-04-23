@@ -251,7 +251,8 @@ div.DESC {
   .footer {
     display: flex;
     height: 5vh;
-    justify-content: baseline;
+    position: fixed;
+    bottom: 0;
   }
 
   .container1 {
