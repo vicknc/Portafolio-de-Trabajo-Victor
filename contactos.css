@@ -412,7 +412,7 @@ justify-content: space-between;
 text-align: center;
 width: 95%;
 font-size: 1.7vw;
-padding: 1.7vw
+padding: 1.7vw;
 }
 
 
@@ -451,24 +451,41 @@ p.contacto {
 
 @media all and (max-width: 600px) {
 
+  section.CONTACTOS {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   h2.secciones {
     font-size: 30px;
+    padding-top: 24px;
   }
 
   h3.Contacto {
-    font-size: 20px;
+    font-size: 22px;
+    padding: 16px;
   }
 
+  a.medios {
+    font-size: 10px;
+  }
+  
   .redes {
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    padding: 1vw;
+  }
+  
+
+  .correo {
+    display:flex;
     justify-content: left;
-    font-size: 1.7vw;
-    
   }
 
   .facebook {
@@ -498,6 +515,9 @@ p.contacto {
     margin-right: 20vw;
   }
 
+  p.contacto {
+    font-size: 23px;
+  }
   .footer {
     position: fixed;
     bottom: 0;
@@ -561,20 +581,16 @@ border:2px solid #000000;
 }
 
 a:hover {
-height: auto;
-border-radius: 150vw;
-background-color: #FF8906;
-color: #000000;
-border:2px solid #000000;
+  height: auto;
+  border-radius: 150vw;
+  background-color: var(--color-terciary);
+  color: #000000;
+  border:2px solid var(--color-primary);
 }
 
-a.medios::before {
-content: "";
-opacity: 0;
-}
 
 a.medios:hover::before {
-content: "➡️";
-opacity: 1;
-transition: opacity 0.3s;
+  content: "➡️";
+  opacity: 1;
+  transition: opacity 0.3s;
 }
