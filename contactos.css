@@ -367,12 +367,13 @@ p.digitales {
 
 
 .footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   background-color: var(--color-terciary);
   height: 5vh;
   width: 100%;
   justify-content: space-between ;
-  margin-top: 2vw;
 }
 
 h3.Contacto {
