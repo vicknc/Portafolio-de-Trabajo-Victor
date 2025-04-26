@@ -303,14 +303,6 @@
   
   
   
-  p.descripciones {
-    text-align: justify;
-    width: 650px;
-    font-size: 17px;
-    padding-left: 48px;
-    color: #ffff;
-  }
-  
 
   .secciones {
     display: flex;
@@ -353,6 +345,8 @@
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   background-color: var(--color-terciary);
   height: 1.7vw;
@@ -567,7 +561,6 @@ img.imgHerramientas {
   flex-direction: row-reverse;
   text-align: center;
   margin: 1vw;
-  padding: 0.5vw;
 }
 
 
@@ -586,45 +579,31 @@ img.imgHerramientas {
     position: fixed;
     bottom: 0;
   }
-
   section.desc123 {
-    padding-top: 32px;
     width: 100%;
-    display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
   }
 
-  .txt {
-    width: 100%;
-    display: flex;
-    justify-content: left;
-  }
-
-  p.descripciones {
-    max-width:90%;
-    justify-content: left;
-    align-items: center;
-    text-align: justify;
-    font-size: 16px;
-    color: #ffffff;
-  }
-  
-  div.text {
-    display: flex;
-    width: 100%;
-    background-color: #103F91;
-  }
-
-  div.imgR {
+  div.txt{
     display: flex;
     flex-direction: row;
-    width: 90%;
-    justify-content: space-between;
+    text-align: center;
+  }
+  
+  p.descripciones {
+    padding-top: 5vw;
+  }
+  
+  
+  div.imgR {
+    display: flex;
+    width:80%;
+    height: 25vw;
+    flex-wrap: wrap;
   }
    
-  img.imgRelleno {
+  img.imgRelleno3 {
     width: 50%;
     height: 100px;
     object-fit: cover;
@@ -662,21 +641,42 @@ img.imgHerramientas {
   }
 }
 
-.content1 {
+section.desc123 {
   width: 100%;
+  padding-top: 5vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: row-reverse;
   align-items: center; 
 }
 
-div.text {
-  display: flex;
-  width: 50vw;
-  margin-top: 5vw;
+p.descripciones {
+  font-size: 19px;
 }
 
-.imgR {
+div.txt {
   display: flex;
-  flex-direction: column; 
+  width: 45vw;
+  margin-top: 5vw;
+
+}
+
+div.imgR {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+img.imgRelleno3 {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+img.imgRelleno2 {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
 }
