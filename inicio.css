@@ -194,26 +194,25 @@ i.bi-c-circle {
 
 
 /* estilo de perfil */
-
-img.imgFondo {
-  width: 100%;
-  height: auto;
-
-  max-height: 500px;
-  object-fit: cover;
-  z-index: -1;
-  container: 50px 200px;
+.presentacion1 {
+  display: flex;
+  padding-top: 3vw;
+  width: 100vw;
+  background-image: url("src/imagenes/landscape.jpg");
+  height: 30vw;
+  object-fit: fill;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
 }
 
+.yo {
+  width: 60%;
+}
 
 img.imgPerfil {
-  position: absolute;
-  top: 250px;
-  right: 2px;
-  transform: translate(-50%, -50%);
   width: 20vw;
   height: 20vw;
-  z-index: auto;
 }
 
 /* estilo de barra de navegacion */ 
@@ -236,23 +235,6 @@ img.imgPerfil {
 nav.barraNavegacion {
   z-index: 1;
 }
-
-h1.nombre {
-  position: absolute;
-  z-index: auto;
-  top: 200px;
-  left: 25px;
-  width: 50vw;
-}
-
-p.presentacion {
-  position: absolute;
-  z-index: auto;
-  top: 25vw;
-  left: 25px;
-  width: 50vw;
-}
-
 
 
 div.p1 {
