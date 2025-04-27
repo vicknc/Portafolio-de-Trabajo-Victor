@@ -595,3 +595,7 @@ a.medios:hover::before {
   opacity: 1;
   transition: opacity 0.3s;
 }
+
+.CONTACTOS {
+  padding-bottom: 2vw;
+}

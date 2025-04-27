@@ -629,7 +629,7 @@ img.imgHerramientas {
     width: 100%;
     flex-direction: column;
     justify-content: center;
-
+    margin-bottom: 7vw;
   }
 
   p.digitales {

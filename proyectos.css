@@ -149,15 +149,14 @@ div.proyectosIMG {
   padding-bottom: 5vw;
 }
 
-
-
- 
-.container1 {
+section.container1 {
   display: flex;
+  padding-top: 9vw;
+  justify-self:center;
   justify-content: row;
   align-items: center;
   justify-content: center;
-  size: 60%;
+  width: 80%;
   justify-content: space-evenly;
 }
 
@@ -167,10 +166,6 @@ div.imgP {
   flex-direction: space-evenly;
 }
 
-div.DESC {
-  display: flex;
-  width: 40vw;
-}
   /*ICONOS COLOR*/
   
 
@@ -264,7 +259,7 @@ div.DESC {
   .desc {
     display: flex;
     width: 80%;
-    font-size: 9px;
+    font-size: 13px;
     align-items: center;
     justify-content: center;
     text-align: justify;
