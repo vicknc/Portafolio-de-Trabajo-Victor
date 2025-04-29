@@ -579,6 +579,7 @@ img.imgHerramientas {
     position: fixed;
     bottom: 0;
   }
+
   section.desc123 {
     width: 100%;
     flex-wrap: wrap;
@@ -587,6 +588,7 @@ img.imgHerramientas {
 
   div.txt{
     display: flex;
+    width: 100%;
     flex-direction: row;
     text-align: center;
   }
@@ -604,17 +606,19 @@ img.imgHerramientas {
   }
    
   img.imgRelleno3 {
+    display: flex;
     width: 50%;
     height: 100px;
+    border-radius: 100px;
     object-fit: cover;
-    border-radius: 150vw;
   }
 
   img.imgRelleno2 {
+    display: flex;
     width: 50%;
     height: 100px;
+    border-radius: 100%;
     object-fit: cover;
-    border-radius: 150vw;
   }
 
   img.imgHerramientas {
@@ -668,6 +672,7 @@ div.imgR {
 }
 
 img.imgRelleno3 {
+  display: flex;
   width: 200px;
   height: 150px;
   object-fit: cover;
@@ -675,6 +680,7 @@ img.imgRelleno3 {
 }
 
 img.imgRelleno2 {
+  display: flex;
   width: 200px;
   height: 150px;
   object-fit: cover;
