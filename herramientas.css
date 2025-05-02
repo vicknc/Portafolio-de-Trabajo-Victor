@@ -588,7 +588,7 @@ img.imgHerramientas {
 
   div.txt{
     display: flex;
-    width: 100%;
+    width: 80vw !important;
     flex-direction: row;
     text-align: center;
   }

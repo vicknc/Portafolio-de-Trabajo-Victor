@@ -202,6 +202,8 @@ i.bi-c-circle {
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
+  background-position: center;
+  background-size: cover;
 }
 
 .yo {
@@ -492,6 +494,7 @@ footer {
     
     p.descripciones2 {
       text-align: center;
+      font-size: 17px;
     }
 
     div.historial {
@@ -532,9 +535,7 @@ footer {
     width: 50%;
   }
 
-  p.descripciones2 {
-    font-size: 2.0vw;
-  }
+  
 
   div.escu1 {
     display: flex;
