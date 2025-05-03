@@ -371,7 +371,7 @@ p.digitales {
   bottom: 0;
   display: flex;
   background-color: var(--color-terciary);
-  height: 5vh;
+  height: 1.7vw;
   width: 100%;
   justify-content: space-between ;
 }

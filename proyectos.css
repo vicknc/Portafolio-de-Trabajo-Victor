@@ -209,6 +209,8 @@ div.imgP {
   justify-content: center;
  }
  .footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   background-color: var(--color-terciary);
   height: 1.7vw;

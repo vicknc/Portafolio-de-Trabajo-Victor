@@ -588,13 +588,13 @@ img.imgHerramientas {
 
   div.txt{
     display: flex;
-    width: 80vw !important;
+    width: 70% !important;
     flex-direction: row;
-    text-align: center;
   }
   
   p.descripciones {
     padding-top: 5vw;
+    text-align: justify;
   }
   
   
